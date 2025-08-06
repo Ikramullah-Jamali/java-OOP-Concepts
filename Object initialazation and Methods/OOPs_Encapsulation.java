@@ -1,0 +1,22 @@
+
+class Employee
+{
+	private int emp_id;
+	public void setEmpid(int eid)
+	{
+		emp_id=eid;
+	}
+	public int getEmpid()
+	{
+		return emp_id;
+	}
+}
+class OOPs_Encapsulation
+{
+	public static void main(String [] args)
+	{
+		Employee e=new Employee();
+		e.setEmpid(101);
+		System.out.println("Employee ID: "+e.getEmpid());
+	}
+}
